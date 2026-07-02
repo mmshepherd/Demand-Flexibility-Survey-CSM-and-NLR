@@ -10,5 +10,6 @@ Each file is accessible as a .tex file. To generate a pdf version of each docume
 Next, upload the file to Overleaf. Once the file is uploaded, generate and download the pdf file. Alternatively, the 
 .tex file can be viewed using any other .tex compiler. 
 
-# Suggested Citation
-Colorado School of Mines 
+# Suggested Citation 
+Shepherd, Morgan, Bernstein, Andrey, Mohagheghi, Salman. Demand Flexibility Survey Data. 2026. 
+https://doi.org/10.5281/zenodo.21136002. 
