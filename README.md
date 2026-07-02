@@ -9,3 +9,6 @@ flexibility programs offered by their utility.
 Each file is accessible as a .tex file. To generate a pdf version of each document, download the applicable .tex file. 
 Next, upload the file to Overleaf. Once the file is uploaded, generate and download the pdf file. Alternatively, the 
 .tex file can be viewed using any other .tex compiler. 
+
+# Suggested Citation
+Colorado School of Mines 
