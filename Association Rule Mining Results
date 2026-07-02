@@ -1,1 +1,513 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx} % Required for inserting images
+
+\begin{document}
+
+\section*{Association Rule Results}\label{association_rules}
+% -------------------------------------------------------
+\subsection*{Question 24 --- Do you comply with these DR requests from the electric utility?}
+ 
+Results presented here include responses that indicate a respondent has complied with previous DR requests from their electric utility.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Rate Type & EV-specific rate & Indicates always complying with DR requests from their electric utility. & $>$0.77 & $>$6.59 \\
+Receipt of Previous DR Requests & Don't Know & Indicates always complying with DR requests from their electric utility. & 1 & $>$8.47 \\
+Smart Appliances Present & Medical Equipment & Indicates complying with DR requests from their electric utility when it does not create any inconvenience. & 1 & $>$24.28 \\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 47 --- Does the electricity rate have an impact on your decision on when you use certain appliances?}
+ 
+Results presented here indicate that the price of electricity dictates when a respondent uses certain electric appliances, representing the elasticity of the customer.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Appliance Rate & Air Conditioning & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.71 & $>$2.71\\
+Charging Behavior & A few times a week but only during the week & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.79 & $>$3.01\\
+ & Charge at Home & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.7 & $>$2.66\\
+ & Only during the weekends & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+Children Under 5 in the Home & 4--5 children & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+Flexible Appliances & Medical equipment & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.81 & $>$3.10\\
+ & Vacuum & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.74 & $>$2.80\\
+ & Whole house fan & Indicates the price of electricity dictates when they use certain electric appliances. & 0.75 & $>$2.84 \\
+Flexible Days & Weekdays & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+ & Weekends & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+ & Both weekends and weekdays & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+Flexible Times of the Day & Afternoon & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+Race/Ethnicity & Hawaiian & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79\\
+Medical Devices Present & Dialysis Machine & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.84 & $>$3.19\\
+ & Respirator & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.77 & $>$2.93 \\
+ & Ventilator & Indicates the price of electricity dictates when they use certain electric appliances. & 0.8 & $>$3.03 \\
+Receipt of Previous DR Requests & Telephone Call & Indicates the price of electricity dictates when they use certain electric appliances. & 0.7 & $>$2.65 \\
+Smart Appliances Present & Medical Equipment & Indicates the price of electricity dictates when they use certain electric appliances. & 1 & $>$3.79 \\
+Weekday EV Charging & Evening & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.7 & $>$2.66\\
+& Morning & Indicates the price of electricity dictates when they use certain electric appliances. & $>$0.7 & $>$2.68\\
+Weekend EV Charging & Morning & Indicates the price of electricity dictates when they use certain electric appliances. & 0.8 & $>$3.03\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 51 --- Would you be willing to enroll in a direct load control (DLC) program?}
+ 
+The results presented in this table include responses that indicate a respondent would be willing to enroll in the program described.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Air Conditioner Setting & Below 60 & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.74 & $>$1.53\\
+Any Adults in the Household That Do Not Speak English & True & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.74 & $>$1.52\\
+Appliances Generally Used on a Winter Weekday & Swamp cooler & Indicates a willingness to participate in a DLC program offered by the electric utility. & 0.8 & $>$1.64\\
+Appliances Generally Used on a Winter Weekend & Swamp Cooler & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.86 & $>$1.79\\
+Appliance Rate & Air Conditioning & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.92 & $>$1.91\\
+Charging Behavior & A few times a week but only during the week & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.91 & $>$1.88\\
+ & A few times a week upon need & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.89 & $>$1.84\\
+ & Charge at home & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.91 & $>$1.87\\
+ & Every day & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.91 & $>$1.87\\
+ & Only during the weekends & Indicates a willingness to participate in a DLC program offered by the electric utility. & 1 & $>$2.06\\
+Children Under 5 in the Home & 4--5 children & Indicates a willingness to participate in a DLC program offered by the electric utility. & 1 & $>$2.06\\
+Chose Rate & True & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.75 & $>$1.55\\
+Construction Material & Concrete & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.7 & $>$1.44\\
+ & Steel & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.71 & $>$1.46\\
+Educational Attainment & Professional training & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.77 & $>$1.60\\
+Estimated Savings from On-site Generation & 10--20\% & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.73 & $>$1.50\\
+ & 20--30\% & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.87 & $>$1.81\\
+ & 30--40\% & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.78 & $>$1.62\\
+ & 40--50\% & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.71 & $>$1.47\\
+EV Ownership & True & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.88 & $>$1.82\\
+Flexible Appliances & Heater & Indicates a willingness to participate in a DLC program offered by the electric utility. & 0.712 & $>$1.46\\
+ & Medical Equipment & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.9 & $>$1.87\\
+ & Swamp cooler & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.9 & $>$1.86\\
+ & Vacuum & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.77 & $>$1.60\\
+ & Whole house fan & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.81 & $>$1.67\\
+Flexible Days & Weekends & Indicates a willingness to participate in a DLC program offered by the electric utility. & 0.7 & $>$1.44\\
+ & Both weekdays and weekends & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.7 & $>$1.45\\
+Heater adjustment when cold & Adjust it to save money & Indicates a willingness to participate in a DLC program offered by the electric utility. & 0.75 & $>$1.54\\
+Heater Setting & Below 60 & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.84 & $>$1.73\\
+Inflexible Appliances & EV & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.71 & $>$1.48\\
+ & Whole house fan & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.7 & $>$1.45\\
+Medical Devices Present & Hospital Bed & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.75 & $>$1.56\\
+ & Mobility Equipment & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.76 & $>$1.57 \\
+ & Respirator & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.86 & $>$1.78\\
+ & Ventilator & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.93 & $>$1.92\\
+On-Site Generation & Battery & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.8 & $>$1.65\\
+Pet Appliances & Fan & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.72 & $>$1.49\\
+ & Heater & Indicates a willingness to participate in a DLC program offered by the electric utility. & 0.725 & $>$1.49\\
+ & Water filter & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.72 & $>$1.49\\
+Primary Language Spoken at Home & Spanish & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.83 & $>$1.71\\
+Race/Ethnicity & Asian or Asian American & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.77 & $>$1.59\\
+ & Native Hawaiian or Pacific Islander & Indicates a willingness to participate in a DLC program offered by the electric utility. & 1 & $>$2.06\\
+Rate Benefits & Society & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.88 & $>$1.83 \\
+ & Both me and the electric utility & Indicates a willingness to participate in a DLC program offered by the electric utility & $>$0.76 & $>$1.57 \\
+Rate Type & EV-specific rate & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.88 & $>$1.83\\
+ & Appliance-specific rate & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.81 & $>$1.68\\
+Reasoning for Generation Installment & Emissions reduction & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.72 & $>$1.50\\
+ & Increased home value & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.76 & $>$1.57 \\
+ & Increased reliability & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.71 & $>$1.47\\
+Receipt of Previous DR Requests & Email & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.74 & $>$1.53\\
+ & Telephone Call & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.81 & $>$1.62\\
+ & Text message & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.7 & $>$1.45\\
+Smart Appliances Present & EV charger & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.91 & $>$1.88\\
+ & Dishwasher & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.71 & $>$1.46\\
+ & HEMS & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.86 & $>$1.78\\
+ & Medical Equipment & Indicates a willingness to participate in a DLC program offered by the electric utility. & 1 & $>$2.06\\
+ & Refrigerator & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.72 & $>$1.48\\
+ & Thermostat & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.7 & $>$1.45\\
+Weekday EV Charging & Evening & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.91 & $>$1.89\\
+ & Midday & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.92 & $>$1.90\\
+ & Morning & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.97 & $>$2.01\\
+ & Night & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.84 & $>$1.73\\
+Weekend EV Charging & Evening & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.88 & $>$1.82\\
+ & Midday & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.95 & $>$1.96\\
+ & Morning & Indicates a willingness to participate in a DLC program offered by the electric utility. & 1 & $>$2.06\\
+ & Night & Indicates a willingness to participate in a DLC program offered by the electric utility. & $>$0.81 & $>$1.67\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 52 --- What percentage savings on your electricity bill would make you willing to participate in a DLC program?}
+ 
+The results presented in this table include responses that indicate how much savings would convince the respondent to participate in a DLC program.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Race/Ethnicity & Hawaiian & Indicates at least 20\% savings would be needed to convince the respondent to participate in a DLC program. & 1 & $>$6.00\\
+Smart Appliances Present & Medical Devices & Indicates at least 20\% savings would be needed to convince the respondent to participate in a DLC program. & 1 & $>$6.00\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 68 --- Would you be willing to participate in a voluntary DR program?}
+ 
+The results presented in this table include responses that indicate a respondent would be willing to enroll in the program described.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Adults Over 65 Years Old & None & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.70 & $>$1.01\\
+Age of Respondent & 35--44 years & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08 \\
+ & 45--54 years & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+Air Conditioning Setting & 75--80 & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Above 80 & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.83 & $>$1.20\\
+ & Does not generally run their AC & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+Air Conditioning Adjustment When Hot & Adjust it slightly towards comfort (1-2 degrees)& Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.70 & $>$1.02 \\
+ & Adjust it to save money & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.74 & $>$1.08 \\
+Air Conditioner Setting Changed Periodically & At night = True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11\\
+ & When at work & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+Any Adults in the Household That Do Not Speak English & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+Appliances Generally Used on a Summer Weekday & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Heater & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.712 & $>$1.03\\
+ & Medical equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05\\
+Appliances Generally Used on a Summer Weekend & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.04\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Heater & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Medical Equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.07\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+ & Vacuum & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.04\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.09\\
+Appliances Generally Used on a Winter Weekday & Air conditioning & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.04\\
+ & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.04\\
+% & Dishwasher = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 \\
+% & Heater = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 \\
+ & Medical equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.8 & $>$1.16\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.24\\
+ & Vacuum & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.08\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05\\
+Appliances Generally Used on a Winter Weekend & Air conditioning & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05 \\
+% & Heater = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 \\
+ & Medical equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 & $>$1.19\\
+ & Vacuum & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.07\\
+Appliance the electricity rate applies to & Air conditioning & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.92 & $>$1.34 \\
+ & Heating & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45 \\
+Charging Behavior & Charges at home & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.90 & $>$1.30 \\
+ & A few times a week but only during the week & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.94 & $>$1.36 \\
+ & A few times a week upon need & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22 \\
+ & Every day & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.88 & $>$1.29 \\
+ & I do not charge at home & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.9 & $>$1.30 \\
+ & Only during the weekends & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45 \\
+Children Under 5 in the Home & 1 child & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+ & 2--3 children & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.80 & $>$1.16\\
+ & 4--5 children & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+Chose electricity rate & True & Indicates a willingness to participate in a DR program offered by the electric utlity. & $>$0.85 & $>$1.23 \\
+Colorado Co-op Customer & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+Colorado Muni/POU Customer & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.07\\
+Construction Material & Brick & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+% & Brick = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 \\
+ & Concrete & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.25\\
+ & Steel & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.87 & $>$1.27\\
+ & Wood & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.02 \\
+Concerns Related to Participating in DLC Program & Comfort concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+ & Control concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.15\\
+ & Damage concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.01\\
+ & Incentive concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Privacy concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.07\\
+% Concerns Related to Participating in DR Program & Comfort concerns = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 \\
+% Concerns Related to Participating in DR Program & Insignificant compensation = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.11 \\
+Cooling Adjustment When Hot & Adjust it slightly towards comfort (1--2 degrees) & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 \\
+ & Adjust it to save money & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 \\
+Cooling Thermostat Type & Programmable & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.09\\
+Educational Attainment & Associates degree & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04\\
+ & Bachelors degree & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+ & Doctorate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Masters degree & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.16\\
+ & Professional training & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+Electric Appliances Present & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.02 \\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.02\\
+ & Medical equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+Employment Status & Employed fulltime & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11\\
+ & Full-time student & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+ & Self employed & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04\\
+Estimated Savings from On-site Generation & 10--20\% & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 & $>$1.20\\
+ & 20--30\% & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.9 & $>$1.30\\
+ & 30--40\% & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+ & 40--50\% & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.24\\
+ & More than 50\% & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.72 & $>$1.04\\
+EV Ownership & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.9 & $>$1.30\\
+Flexible Appliances & Air conditioning & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.17\\
+ & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.26\\
+ & Heater & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.816 & $>$1.18\\
+ & Medical equipment & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.95 & $>$1.38\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.96 & $>$1.14\\
+ & Vacuum & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.87 & $>$1.26\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+Flexible Days & Weekends & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.25\\
+ & Weekdays & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.83 & $>$1.21\\
+ & Both weekends and weekdays & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.14\\
+Flexible Times of Day & Afternoon & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+Has Demand Flexibility Rate & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.16\\
+Heater Adjustment When Cold & Adjust it as much as necessary towards more comfort (more than 2 degrees) & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.11\\
+ & Adjust it to save money & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.23\\
+Heater Setting Changed Periodically & At night & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.08\\
+ & When at work & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11 \\
+Heater Setting & Respondent doesn't know & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$2.41 \\
+ & Below 60 F & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.94 & $>$1.37 \\
+ & 60--65 F & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+ & Above 70 & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+Heating Thermostat Type & Programmable & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11\\
+Household Members & 4--5 people & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.13\\
+ & 6 or more people & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.07\\
+How Often the Household Struggles to Afford Essentials & Frequently (several times a month) & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.09 \\
+ & Regularly (weekly) & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.13\\
+Income & \$30,000 to 59,999 & Indicates a willingness to participate in a DR program offered by the electric utility. & CO: $>$0.7 & CO: $>$1.03 \\
+ & \$65,000 to 89,999 & Indicates a willingness to participate in a DR program offered by the electric utility. & TN: $>$0.77 & TN: $>$1.12\\
+ & \$90,000 to 119,999 & Indicates a willingness to participate in a DR program offered by the electric utility. & TN: $>$0.7; CO: $>$0.71 & TN: $>$1.02; CO: $>$1.04\\
+ & \$120,000 to 149,999 & Indicates a willingness to participate in a DR program offered by the electric utility. & TN: $>$0.75; CO: $>$0.80 & TN: $>$1.09; CO: $>$1.17\\
+ & \$150,000 or higher & Indicates a willingness to participate in a DR program offered by the electric utility. & TN: 0.78 & TN: $>$1.13\\
+Inflexible Appliances & Air Conditioning & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.705 & $>$1.02\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & EV & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.83 & $>$1.20\\
+ & Heater & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04\\
+ & Medical Devices & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.12\\
+ & Stove & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04\\
+ & Swamp cooler & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.16 \\
+ & Vacuum & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Whole house fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+Knows Rate & Yes & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.14\\
+Medical Devices Present & Hospital bed & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.15\\
+ & Dialysis Machine & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+ & Mobility devices & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+ & Oxygen concentrator & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Respirator & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.25\\
+ & Ventilator & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.25\\
+Metropolitan & False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11 \\
+On-Site Generation & Battery & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.24 \\
+ & Diesel Generation & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Solar PV & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.11\\
+Ownership & Own & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.01\\
+Payment Processing & Autopay & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06 \\
+ & Manually online & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.08 \\
+Payment Responsibility & Yes & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06 \\
+Pets & Bird & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18 \\
+ & Dog & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.72 & $>$1.05 \\
+ & Livestock & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.73 & $>$1.06 \\
+ & Reptile & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.78 & $>$1.34 \\
+ & Has pets & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.71 & $>$1.03 \\
+Pet Appliances Present & Fan & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18\\
+ & Heater & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.24\\
+ & Water heater & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.83 & $>$1.19 \\
+Primary Language Spoken at Home & Spanish & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+Race/Ethnicity & American Indian or Alaska Native & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Asian or Asian American & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05\\
+ & Black or African American & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Hispanic or Latino & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Native Hawaiian or Pacific Islander & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+ & White or Caucasian Only & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.70 & $>$1.02 \\
+Rate Benefits & Me and the utility & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.24\\
+ & Only me & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+ & Only the utility & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.08\\
+ & Society & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.88 & $>$1.29\\
+Rate Type & EV-specific rate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.88 & $>$1.29\\
+ & Appliance-specific rate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.95 & $>$1.38\\
+ & Flat rate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.16\\
+ & Tiered rate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.13\\
+ & TOU/time-varying rate & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+Reasoning for Generation Installment & Emissions reduction & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.83 & $>$1.21\\
+ & Grid independence & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.02\\
+ & Increased home value & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.15\\
+ & Increased reliability & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 & $>$1.19\\
+Receipt of Previous DR Requests & Telephone call & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.9 & $>$1.30\\
+ & Email & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.87 & $>$1.27\\
+ & News & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18\\
+ & Previously received a DR request & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 & $>$1.19\\
+% & Social media & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$3.21\\
+ & Text message & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22 \\
+Renovations & Home has undergone renovations & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.10 \\
+ & Air Leak Fix & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.16 \\
+ & Appliance Upgrade & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.15\\
+ & Exterior Upgrades (siding, roofing, etc.) & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 &$>$1.11 \\
+ & HVAC Improvement & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.10\\
+ & Insulation Improvement & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.12\\
+ & Window Renovation & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.17 \\
+Residence Type & Multi-family apartment building & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+ & Townhouse & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.7 & $>$1.01\\
+ & Vehicle (camper, trailer, or car) & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.75 & $>$1.08\\
+Reviews Electricity Bill & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.07 \\
+ & Reviews all items on the bill & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06\\
+ & Reviews the kWh used during the billing period = True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76 & $>$1.10\\
+ & Reviews all tier values & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.10 \\
+ & Previous utility bills & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.8 & $>$1.16 \\
+ & Total amount charged & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.74 & $>$1.07\\
+Review Frequency of Bills & Every billing period & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.73 & $>$1.06 \\
+ & Once every few months & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.77 & $>$1.12\\
+ & Once a year & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.03\\
+Smart Appliances Present & Respondent owns smart appliances & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 \\
+ & Clothes washer & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.09\\
+ & Dishwasher & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81 & $>$1.18\\
+ & EV charger & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.88 & $>$1.28\\
+ & HEMS & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.87 & $>$1.27 \\
+ & Lighting & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.76& $>$1.11 \\
+ & Medical devices & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45 \\
+ & Microwave & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$1.45\\
+ & Refrigerator & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.8 & $>$1.17\\
+ & Thermostat & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.82 & $>$1.20\\
+ & Water heater & Indicates a willingness to participate in a DR program offered by the electric utility. & 1 & $>$3.21 \\
+Tennessee Co-op Customer & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05\\
+% Tennessee Respondent That Doesn't Know Their Electricity Rate & False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 \\
+Tennessee Muni/POU Customer & True & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04 \\
+Thermostat Adjust Periodically & Based on outdoor temperature & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.75 & $>$1.09\\
+ & When home & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.13\\
+Weekday EV Charging & Evening & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.86 & $>$1.25\\
+ & Midday & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.85 & $>$1.23\\
+ & Morning & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.92 & $>$1.34 \\
+ & Night & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.9 & $>$1.31 \\
+ & Peak charger & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.875 & $>$1.27 \\
+Weekend EV Charging & Evening & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+ & Midday & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.9 & $>$1.31\\
+ & Morning & Indicates a willingness to participate in a DR program offered by the electric utility. & 0.96 & $>$1.39\\
+ & Night & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.84 & $>$1.22\\
+Weekday Occupancy & Evening = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.01\\
+ & Late Morning = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 \\
+ & Noon = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.05 \\
+ & Overnight = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.01 \\
+Weekend Occupancy & Evening = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.71 & $>$1.04\\
+ & Morning = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.72 & $>$1.04\\
+ & Overnight = False & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.7 & $>$1.01\\
+% Who Generally Complies with DR Requests & Anyone in the household & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.87 \\
+Who Generally Complies with DR Requests & Anyone in the household & Indicates a willingness to participate in a DR program offered by the electric utility & $>$0.87 & $>$1.26 \\
+ & It is not possible to decline the request, i.e.\ it is mandatory & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.78 & $>$1.14\\
+ & Only an adult & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.81& $>$1.18 \\
+Year the Home Was Built & 1900--1950 & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.79 & $>$1.15\\
+ & 1970--2015 & Indicates a willingness to participate in a DR program offered by the electric utility. & $>$0.70 & $>$1.02\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 69 --- What form of incentive would you prefer?}
+ 
+The results presented in this table include responses that indicate the respondents' preferred compensation type for participating in a DR program.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Charging Behavior & A few times a week upon need & Indicates a preference for a percentage off of bills for participating in a DR program. & $>$0.73 & $>$1.52\\
+ & Never at home & Indicates a preference for a percentage off of bills for participating in a DR program. & 0.7 & $>$1.45\\
+ & Peak charger & Indicates a preference for a percentage off of bills for participating in a DR program. & 0.75 & $>$1.55\\
+Educational Attainment & Professional training & Indicates a preference for a percentage off of bills for participating in a DR program. & $>$0.88 & $>$1.84\\
+Race/Ethnicity & Hawaiian & Indicates a preference for an annual payment for participating in a DR program. & 1 & $>$3.34\\
+Rate Benefits & Society & Indicates a preference for a percentage off of bills for participating in a DR program. & $>$0.77 & $>$1.61\\
+Rate Type & TOU/Time-varying rate & Indicates a preference for a percentage off of bills for participating in a DR program. & $>$0.71 & $>$1.47 \\
+Renovation & Exterior Upgrades (siding, roofing, etc.) & Indicates a preference for a percentage off of bills for participating in a DR program. & $>$0.76 & $>$1.59\\
+Smart Appliances Present & Medical Devices & Indicates a preference for an annual payment for participating in a DR program. & 1 & $>$3.34\\
+ & Medical Devices & Indicates a preference for a percentage off of bills for participating in a DR program. & 1 & $>$2.07\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 70 --- What amount of annual payment would make you willing to participate in a DR program?}
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Race/Ethnicity & Hawaiian & Indicates a preference for an annual payment of more than \$200 for participating in a DR program. & 1 & $>$22.77\\
+Smart Appliances Present & Medical devices & Indicates a preference for an annual payment of at least \$50 for participating in a DR program. & 1 & $>$16.81\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 71 --- What percentage savings on your electricity bill would make you willing to participate in a DR program?}
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Smart Appliances Present & Medical devices & Indicates a preference for at least 20\% off their electricity bill for participating in a DR program. & 1 & $>$6.74\\
+\end{longtable}
+ 
+% -------------------------------------------------------
+\subsection*{Question 79 --- When deciding to charge your EV, does the price of electricity have an impact on when you do so?}
+ 
+Results presented here indicate that the price of electricity dictates when a respondent charges their EV, representing the elasticity of the customer.
+ 
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{2.25cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{2cm} > {\centering\arraybackslash}p{2cm}}
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift}\\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Predictor} & \textbf{Answer Choice} & \textbf{Response} & \textbf{Confidence} & \textbf{Lift} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Charging Behavior & A few times a week but only during the week & Indicates that the price of electricity does dictate when they charge their EV. & $>$0.73 & $>$12.36\\
+Medical Equipment Present & Dialysis machine & Indicates that the price of electricity does dictate when they charge their EV. & $>$0.78 & $>$13.27\\
+Race/Ethnicity & Hawaiian & Indicates that the price of electricity does dictate when they charge their EV. & 1 & $>$16.81\\
+Weekday EV Charging & Morning & Indicates that the price of electricity does dictate when they charge their EV. & $>$0.73 & $>$12.30\\
+\end{longtable}
+
+\end{document}
 
